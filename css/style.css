@@ -356,7 +356,7 @@ button.btn-secondary:hover{
 }
 .about-main p{
 	font-size: 15px;
-	text-transform: capitalize;
+	
 }
 .about-main ul{
 	padding-left: 20px;
@@ -760,8 +760,8 @@ footer p {
 	text-align:center;
 	}
 .social_footer_ul li a:hover {
-	color: #1273eb; 
-	border:2px solid #1273eb; 
+	color: #2ecc71; 
+	border:2px solid #2ecc71; 
 }
 
 .footer-social{
@@ -873,6 +873,8 @@ footer p {
 	color: #2ecc71; /* Default hover font color */
 }
 
+
+
 .hb-facebook,
 .hb-facebook:before,
 .hb-facebook:after {
@@ -907,33 +909,36 @@ footer p {
 .hb-twitter,
 .hb-twitter:before,
 .hb-twitter:after  {
-	background: #55ACEE;
-	border-color: #55ACEE;
+	background: #2ecc71;
+	border-color: #2ecc71;
 	color: #ffffff;
+
 }
+
+
 
 .hb-twitter:hover,
 .hb-twitter:hover:before,
 .hb-twitter:hover:after   {
-	background: transparent;
-	border-color: #55ACEE;
-	color: #55ACEE;
+	background: #2ecc71;
+	border-color: #2ecc71;
+	color: #ffffff;
 }
 
 /* Twitter inverts */
 .hb-twitter-inv,
 .hb-twitter-inv:after,
 .hb-twitter-inv:before {
+	color: #3B5998;   
+	border-color: #3B5998;
 	background: transparent;
-	border-color: #55ACEE;
-	color: #55ACEE;
 }
 .hb-twitter-inv:hover,
 .hb-twitter-inv:hover:after,
 .hb-twitter-inv:hover:before {
-	background: #55ACEE;
-	border-color: #55ACEE;
-	color: #ffffff;
+	background: #3B5998; 
+	border-color: #3B5998;
+	color: #ffffff;  
 }
 
 
